@@ -148,9 +148,9 @@ gptel uses Curl if available, but falls back to the built-in url-retrieve to wor
 
 ** Installation
 
-gptel can be installed in Emacs out of the box with =M-x package-install= ⏎ =gptel=.  This installs the latest commit.
+gptel can be installed in Emacs out of the box with =M-x package-install= ⏎ =gptel= or with =use-package= in your =init.el=.  With the default Emacs configuration, this will install the latest released (stable) version from NonGNU ELPA.  Released versions are available from MELPA Stable as well.
 
-If you want the stable version instead, add NonGNU-devel ELPA or MELPA-stable to your list of package sources (=package-archives=), then install gptel with =M-x package-install⏎= =gptel= from these sources.
+If you want the latest development snapshot instead, add MELPA to your list of package sources (=package-archives=).
 
 (Optional: Install =markdown-mode=.)
 
